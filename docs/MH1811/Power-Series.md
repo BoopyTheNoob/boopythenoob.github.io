@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Power Series
-parent: MH1811
+parent: MH1811 - Mathematics 2
 nav_order: 9
 ---
 
