@@ -6,6 +6,7 @@ nav_order: 9
 ---
 
 # Power series
+{: .highlight }
 **1.** Compute the infinite series
 $$\displaystyle\sum_{n=1}^{+\infty}\dfrac{n}{5^n}.$$
 
@@ -15,7 +16,9 @@ differentiating term-by-term gives
 
 $$\left(\dfrac{1}{1-x}\right)'_x=\sum_{n=0}^{+\infty}\left(x^n\right)'_x\Leftrightarrow\dfrac{1}{(1-x)^2}=\sum_{n=1}^{+\infty}nx^{n-1}=\sum_{n=0}^{+\infty}(n+1)x^n.$$
 
-(the sum starts from $$n=1$$ to handle unexpected behaviour of the term). 
+(the sum starts from
+$$n=1$$
+to handle unexpected behaviour of the term). 
 
 Subtracting
 $$\displaystyle\dfrac{1}{1-x}=\sum_{n=0}^{+\infty}x^n$$
