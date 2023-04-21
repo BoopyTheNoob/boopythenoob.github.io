@@ -1,12 +1,11 @@
 ---
 layout: default
-title: Mathematics 2
-nav_order: 2
+title: Power Series
+parent: MH1811
+nav_order: 9
 ---
 
-# Refresher for MH1811
-
-## Power series
+# Power series
 **1.** Compute the infinite series
 $$\displaystyle\sum_{n=1}^{+\infty}\dfrac{n}{5^n}.$$
 
