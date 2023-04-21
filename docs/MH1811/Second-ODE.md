@@ -9,9 +9,11 @@ nav_order: 12
 
 {: .highlight}
 Find the general solution of the following ordinary differential equation:
+
 $$y''-16y=4x\cos x.$$
 
 **Solution.** The associated homogeneous equation and its characteristic equation are
+
 $$y''-16y=0,\,\lambda^2-16=0.$$
 
 The characteristic equation has roots of
