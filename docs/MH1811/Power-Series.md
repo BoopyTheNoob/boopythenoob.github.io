@@ -38,7 +38,14 @@ $$\lim_{n\to\infty}\left|\dfrac{a_{n+1}}{a_n}\right|<1\Leftrightarrow\left|\dfra
 
 And the series diverges when $$x>\dfrac{4}{3}$$ or $$x<-\dfrac{4}{3}$$. The series' radius of convergence is therefore $$R=\dfrac{4}{3}$$.
 
-* At $x=2$ 
+* At
+$$x=\dfrac{4}{3},\,$$
+$$a_n=\dfrac{8^n-12^n}{12^n+3^n}.$$
+<br/> Since
+$$\displaystyle\lim_{n\to+\infty}a_n=\lim_{n\to+\infty}\dfrac{\left(\dfrac{8}{12}\right)^n-1}{1+\left(\dfrac{3}{12}\right)^n}=-1\ne0,$$
+the series diverges at $$x=\dfrac{4}{3}$$.
+
+* 
 
 {: .highlight }
 Compute the infinite series
