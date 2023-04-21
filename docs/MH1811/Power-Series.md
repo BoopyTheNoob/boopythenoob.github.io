@@ -6,6 +6,7 @@ nav_order: 9
 ---
 
 # Power series
+
 {: .highlight }
 **1.** Compute the infinite series
 $$\displaystyle\sum_{n=1}^{+\infty}\dfrac{n}{5^n}.$$
