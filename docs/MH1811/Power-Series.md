@@ -18,10 +18,11 @@ Let
 $$a_n=\dfrac{2^n-3^n}{4^n+1}x^n$$
 , then its term ratio will be
 
-$$\left|\dfrac{a_{n+1}}{a_n}\right|=\left|\dfrac{\left(2^{n+1}-3^{n+1}\right)x^{n+1}\left(4^{n}+1\right)}{\left(2^{n}-3^{n}\right)x^{n}\left(4^{n+1}+1\right)}\right|=\left|x\times\dfrac{2\times 8^n-3\times 12^n+2\times 2^n-3\times 3^n}{4\times 8^n+2^n-4\times 12^n-3^n}\right|.$$
+$$\begin{align*}\left|\dfrac{a_{n+1}}{a_n}\right|=&\left|\dfrac{\left(2^{n+1}-3^{n+1}\right)x^{n+1}\left(4^{n}+1\right)}{\left(2^{n}-3^{n}\right)x^{n}\left(4^{n+1}+1\right)}\right|\\
+=&\left|x\times\dfrac{2\times 8^n-3\times 12^n+2\times 2^n-3\times 3^n}{4\times 8^n+2^n-4\times 12^n-3^n}\right|.\end{align*}$$
 
 By Ratio Test, the series converges when
-$$\lim_{n\to\infty}\left|\dfrac{a_{n+1}}{a_n}\right|<1.$$
+$$\displaystyle\lim_{n\to\infty}\left|\dfrac{a_{n+1}}{a_n}\right|<1.$$
 We have that
 
 $$
