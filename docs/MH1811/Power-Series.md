@@ -45,7 +45,12 @@ $$a_n=\dfrac{8^n-12^n}{12^n+3^n}.$$
 $$\displaystyle\lim_{n\to+\infty}a_n=\lim_{n\to+\infty}\dfrac{\left(\dfrac{8}{12}\right)^n-1}{1+\left(\dfrac{3}{12}\right)^n}=-1\ne0,$$
 the series diverges at $$x=\dfrac{4}{3}$$.
 
-* 
+* At $$x=-\dfrac{4}{3},\,$$ $$a_n=(-1)^n\times\dfrac{8^n-12^n}{12^n+3^n}$$.
+<br/> Since
+$$\displaystyle\lim_{n\to+\infty}a_n=\lim_{n\to+\infty}(-1)^{n+1}$$
+does not exist, the series diverges at $$x=-\dfrac{4}{3}$$.
+
+The interval of convergence for the series is therefore $$\left(-\dfrac{4}{3},\dfrac{4}{3}\right)$$.
 
 {: .highlight }
 Compute the infinite series
