@@ -44,6 +44,7 @@ $$\begin{align*}
 \end{align*}$$
 
 Equating the coefficients gives 
+
 $$\begin{cases}-17A=4\\2C-17B=0\\-17C=0\\-2A-17D=0\end{cases}\Leftrightarrow\begin{cases}A=-\dfrac{4}{17}\\B=0\\C=0\\D=\dfrac{8}{289}.\end{cases}$$
 
 The general solution for the specified differential equation is therefore
