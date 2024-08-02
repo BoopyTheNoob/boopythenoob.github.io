@@ -10,6 +10,11 @@ Nhằm hiện thực hóa tầm nhìn tiền tệ không lệ thuộc vào chín
 
 
 ## Bể thanh khoản với tích không đổi
-Xét hai loại tiền tệ $X$ và $Y$ trên một hệ thống giao dịch, với số lượng của mỗi loại tiền tệ tại thời điểm $t$ nào đó lần lượt là $X_t$ và $Y_t$.
+Xét hai loại tiền tệ $$X$$ và $$Y$$ trên một hệ thống giao dịch, với số lượng của mỗi loại tiền tệ tại thời điểm $$t$$ nào đó lần lượt là $$X_t$$ và $$Y_t$$. Mô hình tích không đổi có nghĩa rằng tại mọi thời điểm, ta phải có tích
+$$X_tY_t=C$$
+với hằng số $$C$$ nào đó. Tổng quan hơn mô hình tích không đổi, ta có thể giới thiệu thêm một hằng số $$\alpha\in(0,1)$$ vào bên trong tích nói trên và được
+$$X_t^{\alpha}Y_t^{1-\alpha}=C.$$
+Ta sẽ thực hiện các tính toán trên trường hợp tổng quát này. Có thể nhanh chóng nhận xét rằng khi $$\alpha=\frac{1}{2}$$ ta có được mô hình tích không đổi (chính xác hơn là trung bình nhân), được đề cập đến trong sách trắng của Uniswap v2.
 
 ## Tỷ giá hối đoái và cách lập hợp đồng giao dịch
+Giả sử tại thời điểm $$t$$, ta muốn thực hiện giao dịch một lượng $$\Delta Y_t=Y_t-Y_{t^-}$$ đơn vị tiền tệ $$Y$$ sang $$\Delta X_t=X_t-X_{t^-}$$ đơn vị tiền tệ $$X$$, khi đó để thị trường có 
