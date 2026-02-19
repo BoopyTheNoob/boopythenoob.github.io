@@ -2,10 +2,10 @@
 layout: default
 title: Closure and Interior
 parent: MH3600 - Topology and Manifolds
-nav_order: 1
+nav_order: 2
 ---
 
-# Closure and Interior of a Set
+# Closure and Interior
 
 {: .highlight }
 > **Theorem 17.5.** Let $$A$$ be a subset of the topological space $$X$$.
@@ -14,4 +14,4 @@ nav_order: 1
 > 
 > (b) Supposing the topology of $$X$$ is given by a basis, then $$x\in\overline{A}$$ if and only if every basis element $$B$$ containing $$x$$ intersects $$A$$.
 
-__Proof.__
+_Proof._
