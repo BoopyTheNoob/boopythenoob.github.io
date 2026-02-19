@@ -50,7 +50,7 @@ Let $$X=\mathbb{R}$$ be equipped with the usual topology, $$A=(0,1)$$ and $$B=(1
     * Tutorial 3.1.a states that if $$A\subset B$$ then $$\overline{A}\subset\overline{B}$$. Applying this with the above-proved result yields $$\mathrm{int}(\overline{A})\subset\mathrm{int}(\overline{B})$$.  
     * Since $$\mathrm{int}(A)\subset\mathrm{int}(B)$$, applying the result of tutorial 3.1.a yields $$\overline{\mathrm{int}(A)}\subset\overline{\mathrm{int}(B)}$$.
 * Let $$x\in A$$, then since $$A\subset\overline{A}$$ we have $$x\in\overline{A}$$ as well. Furthermore, as $$A$$ is an open set contained in $$\overline{A}$$ and $$x\in A$$, $$x$$ must belong to the interior of $$\overline{A}$$. Hence $$A\subset\mathrm{int}(\overline{A})$$.
-* As $$\mathrm{int}(A)\subset A$$, we apply the result of tutorial 3.1.a to get $$\overline{\mathrm{int}(A)}\subset\overline{A}$$. But $$A$$ is given to be closed, so $$\overline{A}=A$$ and we get the desired result of $$\overline{\int}(A)\subset A$$.
+* As $$\mathrm{int}(A)\subset A$$, we apply the result of tutorial 3.1.a to get $$\overline{\mathrm{int}(A)}\subset\overline{A}$$. But $$A$$ is given to be closed, so $$\overline{A}=A$$ and we get the desired result of $$\overline{\mathrm{int}}(A)\subset A$$.
 
 (iii) Let $$A=[0,1)\cup(1,2]\cup\{3\}\subset\mathbb{R}$$, then:
 * $$\overline{A}=[0,2]\cup{3}$$,
