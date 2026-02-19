@@ -46,11 +46,11 @@ To show that $$\overline{A}\cap\overline{B}$$ may not be empty, we use the follo
 Let $$X=\mathbb{R}$$ be equipped with the usual topology, $$A=(0,1)$$ and $$B=(1,2)$$. Then $$\overline{A}=[0,1]$$ and $$\overline{B}=[1,2]$$ are the closures of $$A$$ and $$B$$, and $$\overline{A}\cap\overline{B}=\{1\}\ne\emptyset$$.
 
 (ii)
-* We first prove that if $$A\subset B$$, then $$\mathrm{int}(A)\subset\mathrm{int}(B)$$. Let $$x\in\mathrm{int}(A)$$, then by definition $$x$$ belongs to some subset $$C$$ contained in $$A$$. But since $$A\subset B$$, this subset $$C$$ is also contained in $$B$$. Hence, $$x\in\mathrm{int}(B)$$ by the definition of the interior, and $$\mathrm{int}(A)\subset\mathrm{int}(B)$$ as desired.
+* We first prove that if $$A\subset B$$, then $$\mathrm{int}(A)\subset\mathrm{int}(B)$$. Let $$x\in\mathrm{int}(A)$$, then by definition $$x$$ belongs to an open subset $$C$$ such that $$x\in C\subset A$$. But since $$A\subset B$$, this subset $$C$$ is also contained in $$B$$. Hence, $$x\in\mathrm{int}(B)$$ by the definition of the interior, and $$\mathrm{int}(A)\subset\mathrm{int}(B)$$ as desired.
     * Tutorial 3.1.a states that if $$A\subset B$$ then $$\overline{A}\subset\overline{B}$$. Applying this with the above-proved result yields $$\mathrm{int}(\overline{A})\subset\mathrm{int}(\overline{B})$$.  
     * Since $$\mathrm{int}(A)\subset\mathrm{int}(B)$$, applying the result of tutorial 3.1.a yields $$\overline{\mathrm{int}(A)}\subset\overline{\mathrm{int}(B)}$$.
 * Let $$x\in A$$, then since $$A\subset\overline{A}$$ we have $$x\in\overline{A}$$ as well. Furthermore, as $$A$$ is an open set contained in $$\overline{A}$$ and $$x\in A$$, $$x$$ must belong to the interior of $$\overline{A}$$. Hence $$A\subset\mathrm{int}(\overline{A})$$.
-* We use contrapositive here. Assume $$x\notin A$$. Since $$\mathrm{int}(A)\subset A$$ and $$A$$ is closed, $$x\notin\mathrm{int}(A)$$ as well. Therefore $$x\notin\overline{\mathrm{int}(A)}$$ as well as for any open sets $$C$$ containing $$x$$, $$C\cap\mathrm{int}(A)=\emptyset$$. Hence $$\overline{\mathrm{int}(A)}\subset A$$.
+* As $$\mathrm{int}(A)\subset A$$, we apply the result of tutorial 3.1.a to get $$\overline{\mathrm{int}(A)}\subset\overline{A}$$. But $$A$$ is given to be closed, so $$\overline{A}=A$$ and we get the desired result of $$\overline{\int}(A)\subset A$$.
 
 (iii) Let $$A=[0,1)\cup(1,2]\cup\{3\}\subset\mathbb{R}$$, then:
 * $$\overline{A}=[0,2]\cup{3}$$,
