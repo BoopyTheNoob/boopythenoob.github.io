@@ -52,11 +52,12 @@ Let $$X=\mathbb{R}$$ be equipped with the usual topology, $$A=(0,1)$$ and $$B=(1
 * Let $$x\in A$$, then since $$A\subset\overline{A}$$ we have $$x\in\overline{A}$$ as well. Furthermore, as $$A$$ is an open set contained in $$\overline{A}$$ and $$x\in A$$, $$x$$ must belong to the interior of $$\overline{A}$$. Hence $$A\subset\mathrm{int}(\overline{A})$$.
 * We use contrapositive here. Assume $$x\notin A$$. Since $$\mathrm{int}(A)\subset A$$ and $$A$$ is closed, $$x\notin\mathrm{int}(A)$$ as well. Therefore $$x\notin\overline{\mathrm{int}(A)}$$ as well as for any open sets $$C$$ containing $$x$$, $$C\cap\mathrm{int}(A)=\emptyset$$. Hence $$\overline{\mathrm{int}(A)}\subset A$$.
 
-(iii) Let $$A=[0,1)\cup(1,2]\cup\{3\}\subset\mathbb{R}$$, then
-* $$\overline{A}=[0,2]\cup{3}$$
-* $$\mathrm{int}(A)=(0,1)\cup(1,2)$$
-* $$\mathrm{int}(\overline{A})=(0,2)$$
-* $$\overline{\mathrm{int}(A)}=[0,2]$$
+(iii) Let $$A=[0,1)\cup(1,2]\cup\{3\}\subset\mathbb{R}$$, then:
+* $$\overline{A}=[0,2]\cup{3}$$,
+* $$\mathrm{int}(A)=(0,1)\cup(1,2)$$,
+* $$\mathrm{int}(\overline{A})=(0,2)$$,
+* $$\overline{\mathrm{int}(A)}=[0,2]$$.
+
 This is one such example where $$A$$, $$\overline{A}$$, $$\mathrm{int}(A)$$, $$\mathrm{int}(\overline{A})$$ and $$\overline{\mathrm{int}(A)}$$ are all distinct.
 
 {: .highlight}
