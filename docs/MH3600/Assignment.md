@@ -51,11 +51,13 @@ _Solution._
 >
 > (ii) Show that $$\mathcal{T}_A$$ is always contained in the usual topology $$\mathcal{T}_{\mathrm{usual}}$$ on $$\mathbb{R}$$, i.e. $$\mathcal{T}_A\subseteq \mathcal{T}_{\mathrm{usual}}$$.
 >
-> (iii)
+> (iii) Determine necessary and sufficient conditions on $$A$$ for $$\mathcal{T}_A$$ to coincide with the usual topology $$\mathcal{T}_{\mathrm{usual}}$$ on $$\mathbb{R}$$, i.e. $$\mathcal{T}_A=\mathcal{T}_{\mathrm{usual}}$$.
 >
-> (iv)
+> (iv) For which $$A$$ is $$\mathcal{T}_A$$ Hausdorff?
 >
-> (v) Let $$A=\mathbb{Z}\cup\left\{\frac{1}{n}\middle|n\in\mathbb{N}\right\}\subset\mathbb{R}$$.
+> (v) Let
+>
+> $$A=\mathbb{Z}\cup\left\{\frac{1}{n}\middle|n\in\mathbb{N}\right\}\subset\mathbb{R}.$$
 >
 > * Describe explicitly the topology $$\mathcal{T}_A$$ as well as a basis for it.
 >
