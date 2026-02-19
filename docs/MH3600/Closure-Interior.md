@@ -10,7 +10,7 @@ nav_order: 2
 ## Closure and Interior of a Set
 
 {: .highlight }
-> Let $$A$$ be a subset of a topological space $$X$$. Then:
+> **Lemma.** Let $$A$$ be a subset of a topological space $$X$$. Then:
 > * $$A$$ is open if and only if $$A=\mathrm{Int}(A)$$;
 > * $$A$$ is closed if and only if $$A=\overline{A}$$.
 
@@ -22,7 +22,7 @@ nav_order: 2
 > (b) Supposing the topology of $$X$$ is given by a basis, then $$x\in\overline{A}$$ if and only if every basis element $$B$$ containing $$x$$ intersects $$A$$.
 
 <details>
-<summary>_Proof._</summary>
+<summary><i> Proof. </i></summary>
 The actual proof goes here.
 </details> 
 

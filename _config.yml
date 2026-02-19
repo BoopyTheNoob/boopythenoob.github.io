@@ -8,3 +8,5 @@ url: https://just-the-docs.github.io
 callouts:
   highlight:
     color: yellow
+  new:
+    color: green

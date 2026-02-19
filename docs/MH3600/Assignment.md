@@ -24,6 +24,8 @@ nav_order: 1
 
 _Solution._
 
+Exercise 17.13 and [here](https://math.stackexchange.com/questions/3177682/let-f-g-x-rightarrow-y-be-continuous-assume-y-is-hausdorff-show-that)
+
 {: .highlight }
 > **Problem 2.**
 > Let $$X$$ be a topological space.
