@@ -24,7 +24,38 @@ nav_order: 1
 
 _Solution._
 
-Exercise 17.13 and [here](https://math.stackexchange.com/questions/3177682/let-f-g-x-rightarrow-y-be-continuous-assume-y-is-hausdorff-show-that)
+(i) For the first part, assume $$Y$$ is Hausdorff and we want to show that the diagonal $\Delta_Y$ is closed with respect to $$Y\times Y$$.
+
+Let $$(x,y)\in Y\times\setminus\Delta_Y$$, then $$x\ne y$$ by definition of the diagonal. As $$Y$$ is Hausdorff, there exists two neighboorhoods $$U$$ and $$V$$ of $$x$$ and $$y$$, respectively, that are disjoint. Therefore $$(x, y)\in U\times V\subset Y\times Y$$.
+
+As $$U$$ and $$V$$ are open in $$Y$$, their Cartesian product $$U\times V$$ is a basis element of $$Y\times Y$$ and is open in this product topology as well.
+
+Assume that $$(v, w)$$ is an intersection point in both $$U\times V$$ and $$\Delta_Y$$. Then:
+* $$(v, w)\in U\times V$$ implies that $$v\in U$$ and $$w\in V$$; and since $$U$$ and $$V$$ are disjoint sets we must have $$v\ne w$$.
+* $$(v, w)\in\Delta_Y$$ so $$v=w$$.
+A contradiction arises ($$v\ne w$$ and $$v=w$$ at the same time), so therefore $$(v, w)$$ cannot be in both $$U\times V$$ and $$\Delta_Y$$. This implies that $$U\times V$$ and $$\Delta_Y$$ are disjoint.
+
+As we have found a neighborhood of $$(x, y)$$ that does not intersect $$\Delta_Y$$ (at some point other than $$(x, y)$$), $$(x,y)$$ cannot be a limit point of $$\Delta_Y$$. But $$(x, y)$$ is arbitrary in $$Y\times\setminus\Delta_Y$$, this implies that no points outside of $$\Delta_Y$$ can be a limit point of $$\Delta_Y$$. This is equivalent to saying that all limit points of $$\Delta_Y$$ is in $$\Delta_Y$$, or $$\Delta_Y$$ contains all of its limit points. Therefore $$\Delta_Y$$ is closed according to the collorary on Chapter 2, Slide 99.
+
+For the second part, assume $$\Delta_Y$$ is closed with respect to $$Y\times Y$$ and we want to show that $$Y$$ is Hausdorff.
+
+Let $$x$$ and $$y$$ be two distinct elements in $$Y$$, then $$(x, y)\in Y\times Y\setminus\Delta_Y$$ be an arbitrary point outside of $$\Delta_Y$$. Since $$\Delta_Y$$ is closed, it contains all of its limit point and $$(x,y)$$ cannot be a limit point of $$\Delta_Y$$. Therefore, there exists a neighborhood $$T$$ of $$(x, y)$$ that does not intersect $$\Delta_Y$$.
+
+By the construction of the product topology $$Y\times Y$$ from its basis, there exists a basis element $$U\times V$$ of $$T$$ such that $$(x, y)\in U\times V\subset T$$ where $$U$$ and $$V$$ are open in $$Y$$. Then $$x\in U$$ and $$y\in V$$.
+
+Assume that $$z\in Y$$ is within the intersection $$U\cap V$$, then:
+* as $$(z,z)\in U\times V$$. As $$U\times V\subset T$$ and $$T$$ does not intersect $$\Delta_Y$$, we must have that $$(z,z)\not\in \Delta_Y$$;
+* as $$z=z$$, $$(z,z)\in \Delta_Y$$.
+A contradiction arises ($$(z,z)$$ both not in $$\Delta_Y$$ and in $$\Delta_Y$$ at the same time), so therefore $$U\cap V$$ must be empty or $$U$$ and $$V$$ are disjoint. Since we are able to determine open neighborhoods $$U$$ and $$V$$ of $$x$$ and $$y$$ respectively that are disjoint, and that $$x$$ and $$y$$ are arbitrary distinct elements in $$Y$$, the topological space $$Y$$ must therefore be Hausdorff.
+
+(ii) Let $$x\in X\setminus Z$$, then by definition of $$Z$$ we have $$f(x)\ne g(x)$$. Let $$y_1=f(x)$$ and $$y_2=g(x)$$ be the resulting distinct elements in $$Y$$. As $$Y$$ is Hausdorff, there exists neighborhoods $$V_1$$ and $$V_2$$ of $$y_1$$ and $$y_2$$, respectively, that are disjoint.
+
+Since $$f$$ and $$g$$ are continuous functions, the preimages $$U_1=f^{-1}(V_1)$$ and $$U_2=g^{-1}(V_2)$$, of $$V_1$$ and $$V_2$$ respectively, are open in $$X$$. As $$f(x)=y_1\in V_1$$ and $$g(x)=y_2\in V_2$$, we have that $$x\in U_1$$ and $$x\in U_2$$, or equivalently $$x\in U_1\cap U_2$$. Note that $$U_1\cap U_2$$ is open in $$X$$ as $$U_1$$ and $$U_2$$ are open in $$X$$ and finite intersections of open sets are also open.
+
+Assume that there exists some element $$z\in Z$$ that is also in $$U_1\cap U_2$$. Then:
+* as $$f(z)\in V_1$$ and $$g(z)\in V_2$$, and that $$V_1\cap V_2=\empty$$ ($$V_1$$ are $$V_2$$ are disjoint open sets) so therefore $$f(z)\ne g(z)$$;
+* as $$z\in Z$$ so $$f(z)=g(z)$$ by definition.
+A contradiction arises ($$f(z)\ne g(z)$$ and $$f(z)=g(z)$$ at the same time), so therefore the intersection between $$U_1\cap U_2$$ and $$Z$$ must be empty. As we are able to point out a neighborhood $$U_1\cap U_2$$ of $$x$$ that does not intersect $$Z$$ (at another point), $$x$$ is not a limit point of $$Z$$. As $$x$$ is arbitrary among $$X\setminus Z$$, any limit point of $$Z$$ cannot lie outside $$Z$$. Hence all limit points of $$Z$$ lie in $$Z$$, and therefore the set $$Z$$ is closed.
 
 {: .highlight }
 > **Problem 2.**
@@ -52,7 +83,7 @@ Let $$X=\mathbb{R}$$ be equipped with the usual topology, $$A=(0,1)$$ and $$B=(1
     * Tutorial 3.1.a states that if $$A\subset B$$ then $$\overline{A}\subset\overline{B}$$. Applying this with the above-proved result yields $$\mathrm{int}(\overline{A})\subset\mathrm{int}(\overline{B})$$.  
     * Since $$\mathrm{int}(A)\subset\mathrm{int}(B)$$, applying the result of tutorial 3.1.a yields $$\overline{\mathrm{int}(A)}\subset\overline{\mathrm{int}(B)}$$.
 * Let $$x\in A$$, then since $$A\subset\overline{A}$$ we have $$x\in\overline{A}$$ as well. Furthermore, as $$A$$ is an open set contained in $$\overline{A}$$ and $$x\in A$$, $$x$$ must belong to the interior of $$\overline{A}$$. Hence $$A\subset\mathrm{int}(\overline{A})$$.
-* As $$\mathrm{int}(A)\subset A$$, we apply the result of tutorial 3.1.a to get $$\overline{\mathrm{int}(A)}\subset\overline{A}$$. But $$A$$ is given to be closed, so $$\overline{A}=A$$ and we get the desired result of $$\overline{\mathrm{int}}(A)\subset A$$.
+* As $$\mathrm{int}(A)\subset A$$, we apply the result of tutorial 3.1.a to get $$\overline{\mathrm{int}(A)}\subset\overline{A}$$. But $$A$$ is given to be closed, so $$\overline{A}=A$$ and we get the desired result of $$\overline{\mathrm{int}(A)}\subset A$$.
 
 (iii) Let $$A=[0,1)\cup(1,2]\cup\{3\}\subset\mathbb{R}$$, then:
 * $$\overline{A}=[0,2]\cup{3}$$,
