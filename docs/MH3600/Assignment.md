@@ -22,7 +22,8 @@ nav_order: 1
 >
 > is closed in $$X$$.
 
-_Solution._
+<details>
+<summary><i>Solution.</i></summary>
 
 (i) _For the first part_, assume $$Y$$ is Hausdorff and we want to show that the diagonal $\Delta_Y$ is closed with respect to $$Y\times Y$$.
 
@@ -59,6 +60,7 @@ Assume that there exists some element $$z\in Z$$ that is also in $$U_1\cap U_2$$
 * as $$z\in Z$$ so $$f(z)=g(z)$$ by definition.
 
 A contradiction arises ($$f(z)\ne g(z)$$ and $$f(z)=g(z)$$ at the same time), so therefore the intersection between $$U_1\cap U_2$$ and $$Z$$ must be empty. As we are able to point out a neighborhood $$U_1\cap U_2$$ of $$x$$ that does not intersect $$Z$$ (at another point), $$x$$ is not a limit point of $$Z$$. As $$x$$ is arbitrary among $$X\setminus Z$$, any limit point of $$Z$$ cannot lie outside $$Z$$. Hence all limit points of $$Z$$ lie in $$Z$$, and therefore the set $$Z$$ is closed.
+</details>
 
 {: .highlight }
 > **Problem 2.**
@@ -73,7 +75,8 @@ A contradiction arises ($$f(z)\ne g(z)$$ and $$f(z)=g(z)$$ at the same time), so
 >
 > (iii) Find $$A\subset\mathbb{R}$$ such that $$A$$, $$\overline{A}$$, $$\mathrm{int}(A)$$, $$\mathrm{int}(\overline{A})$$, $$\overline{\mathrm{int}(A)}$$ are all distinct.
 
-_Solution._
+<details>
+<summary><i>Solution.</i></summary>
 
 (i) Let $$x\in A$$. In order for $$x\in\overline{B}$$, all open subsets containing $$x$$ must intersect $$B$$. However, since $$A$$ is a valid neighborhood of $$x$$ and $$A\cap B=\emptyset$$, it must be that $$x\not\in\overline{B}$$. Therefore $$A\cap\overline{B}=\emptyset$$.
 
@@ -95,6 +98,8 @@ Let $$X=\mathbb{R}$$ be equipped with the usual topology, $$A=(0,1)$$ and $$B=(1
 * $$\overline{\mathrm{int}(A)}=[0,2]$$.
 
 This is one such example where $$A$$, $$\overline{A}$$, $$\mathrm{int}(A)$$, $$\mathrm{int}(\overline{A})$$ and $$\overline{\mathrm{int}(A)}$$ are all distinct.
+
+</details>
 
 {: .highlight}
 > **Problem 3.**
