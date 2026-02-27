@@ -24,7 +24,7 @@ nav_order: 1
 
 _Solution._
 
-(i) _For the first part_, assume $$Y$$ is Hausdorff and we want to show that the diagonal $\Delta_Y$ is closed with respect to $$Y\times Y$$.
+(i) _For the first part_, assume $$Y$$ is Hausdorff and we want to show that the diagonal $$\Delta_Y$$ is closed with respect to $$Y\times Y$$.
 
 Let $$(x,y)\in Y\times Y\setminus\Delta_Y$$, then $$x\ne y$$ by definition of the diagonal. As $$Y$$ is Hausdorff, there exists two neighboorhoods $$U$$ and $$V$$ of $$x$$ and $$y$$, respectively, that are disjoint. Therefore $$(x, y)\in U\times V\subset Y\times Y$$.
 
@@ -123,3 +123,5 @@ This is one such example where $$A$$, $$\overline{A}$$, $$\mathrm{int}(A)$$, $$\
 > * Study the convergence of the sequence $$x_n=-\frac{1}{n}$$ in this topology.
 
 _Solution._
+
+(i) We check

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Closed Sets and Limit Points
-parent: MH3600 - Topology and Manifolds
-nav_order: 2
+parent: Topological Spaces and Continuous Functions
+nav_order: 1
 ---
 
 # Closed Sets and Limit Points
@@ -23,7 +23,7 @@ nav_order: 2
 
 <details>
 <summary><i> Proof. </i></summary>
-The actual proof goes here.
+The actual proof goes here \(X\).
 </details> 
 
 ## Hausdorff Spaces
