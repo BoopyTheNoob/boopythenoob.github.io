@@ -10,7 +10,9 @@ nav_order: 2
 Consider the Cartesian products $$X_1\times\cdots\times X_n$$ and $$X_1\times X_2\times\cdots$$, where each $$X_i$$ is a topological space.
 
 {: .new }
-> Let $$J$$ be an index set. Given a set $$X$$, we define a **$$J$$-tuple** of elements of $$X$$ to be a function $$\mathbf{x}\colon J\to X$$.
+> Let $$J$$ be an index set.
+>
+> Given a set $$X$$, we define a **$$J$$-tuple** of elements of $$X$$ to be a function $$\mathbf{x}\colon J\to X$$.
 > 
 > If $$\alpha$$ is an element of $$J$$, we often denote the value of $$\mathbf{x}$$ at $$\alpha$$ by $$x_{\alpha}$$ rather than $$\mathbf{x}(\alpha)$$; we call it the **$$\alpha$$th coordinate** of $$\mathbf{x}$$.
 > 
@@ -27,9 +29,9 @@ Consider the Cartesian products $$X_1\times\cdots\times X_n$$ and $$X_1\times X_
 <details>
 <summary>Check that the collection is indeed a basis.</summary>
 
-* \(\displaystyle\prod X_{\alpha}\) is a basis element of the box topology, hence all elements of the Cartesian product lies in this basis element.
+- \(\displaystyle\prod X_{\alpha}\) is a basis element of the box topology, hence all elements of the Cartesian product lies in this basis element.
 
-* For any two basis elements \(\displaystyle\prod_{\alpha\in J}U_{\alpha}\) and \(\displaystyle\prod_{\alpha\in J}V_{\alpha}\), their intersection is  
+- For any two basis elements \(\displaystyle\prod_{\alpha\in J}U_{\alpha}\) and \(\displaystyle\prod_{\alpha\in J}V_{\alpha}\), their intersection is  
 $$\left(\prod_{\alpha\in J}U_{\alpha}\right)\cap\left(\prod_{\alpha\in J}V_{\alpha}\right)=\prod_{\alpha\in J}(U_\alpha\cap V_\alpha).$$  
 For any element \((x_{\alpha})\) belonging in both of these basis elements, its \(\alpha\)th coordinate \(x_{\alpha}\) belongs in both \(U_{\alpha}\) and \(V_{\alpha}\) or equivalently \(U_{\alpha}\cap V_{\alpha}\). This is true for all \(\alpha\in J\), hence \(\displaystyle(x_{\alpha})\in\prod_{\alpha\in J}(U_\alpha\cap V_\alpha)\), another basis element of the cartesian product of the family of topological spaces.
 
