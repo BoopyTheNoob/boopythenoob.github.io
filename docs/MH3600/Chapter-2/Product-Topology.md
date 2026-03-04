@@ -29,11 +29,14 @@ Consider the Cartesian products $$X_1\times\cdots\times X_n$$ and $$X_1\times X_
 <details>
 <summary>Check that the collection is indeed a basis.</summary>
 
-- \(\displaystyle\prod X_{\alpha}\) is a basis element of the box topology, hence all elements of the Cartesian product lies in this basis element.
+<ul style="list-style-type: disc; padding-left: 1.5rem;">
+    <li> \(\displaystyle\prod X_{\alpha}\) is a basis element of the box topology, hence all elements of the Cartesian product lies in this basis element.</li>
 
-- For any two basis elements \(\displaystyle\prod_{\alpha\in J}U_{\alpha}\) and \(\displaystyle\prod_{\alpha\in J}V_{\alpha}\), their intersection is  
-$$\left(\prod_{\alpha\in J}U_{\alpha}\right)\cap\left(\prod_{\alpha\in J}V_{\alpha}\right)=\prod_{\alpha\in J}(U_\alpha\cap V_\alpha).$$  
-For any element \((x_{\alpha})\) belonging in both of these basis elements, its \(\alpha\)th coordinate \(x_{\alpha}\) belongs in both \(U_{\alpha}\) and \(V_{\alpha}\) or equivalently \(U_{\alpha}\cap V_{\alpha}\). This is true for all \(\alpha\in J\), hence \(\displaystyle(x_{\alpha})\in\prod_{\alpha\in J}(U_\alpha\cap V_\alpha)\), another basis element of the cartesian product of the family of topological spaces.
-
+    <li> For any two basis elements \(\displaystyle\prod_{\alpha\in J}U_{\alpha}\) and \(\displaystyle\prod_{\alpha\in J}V_{\alpha}\), their intersection is  
+    
+    $$\left(\prod_{\alpha\in J}U_{\alpha}\right)\cap\left(\prod_{\alpha\in J}V_{\alpha}\right)=\prod_{\alpha\in J}(U_\alpha\cap V_\alpha).$$  
+    
+    For any element \((x_{\alpha})\) belonging in both of these basis elements, its \(\alpha\)th coordinate \(x_{\alpha}\) belongs in both \(U_{\alpha}\) and \(V_{\alpha}\) or equivalently \(U_{\alpha}\cap V_{\alpha}\). This is true for all \(\alpha\in J\), hence \(\displaystyle(x_{\alpha})\in\prod_{\alpha\in J}(U_\alpha\cap V_\alpha)\), another basis element of the cartesian product of the family of topological spaces.</li>
+</ul>
 Hence the given basis for the box topology is indeed a basis.
 </details>
