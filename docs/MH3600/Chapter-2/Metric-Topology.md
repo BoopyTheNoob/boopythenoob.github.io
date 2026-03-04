@@ -14,7 +14,7 @@ nav_order: 3
 > 3. (Triangle inequality) $$d(x, y)+d(y,z)\ge d(x, z)$$ for all $$x, y, z\in X$$.
 
 {: .new }
-Given $$\varepsilon>0$$, the set $$B_d(x,\epsilon)=\{y\vert d(x,y)<\varepsilon\}$$ of all points $$y$$ whose distance from $$x$$ is less than $$\varepsilon$$ is called the $$\varepsilon$$-ball centered at $$x$$.
+Given $$\varepsilon>0$$, the set $$B_d(x,\epsilon)=\{y\vert d(x,y)<\varepsilon\}$$ of all points $$y$$ whose distance from $$x$$ is less than $$\varepsilon$$ is called the **$$\varepsilon$$-ball centered at $$x$$**.
 
 {: .new }
 If $$d$$ is a metric on the set $$X$$, then the collection of all $$\varepsilon$$-balls $$B_d(x,\varepsilon)$$, for $$x\in X$$ and $$\varepsilon>0$$, is a basis for a topology on $$X$$, called the **metric topology** induced by $$d$$.
